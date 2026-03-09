@@ -224,8 +224,8 @@ An investigation case was automatically created in TheHive with full details of 
 
 The SOC Analyst received an automatic email notification with all attack details for immediate investigation.
 
-![Email Notification](screenshots/EmailSuccess.jpeg),(screenshots/Shuffle-Gmail.jpeg)
-)
+![Email Notification](screenshots/EmailSuccess.jpeg (screenshots/Shuffle-Gmail.jpeg))
+
 
 ---
 
