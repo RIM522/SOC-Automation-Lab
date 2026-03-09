@@ -3,10 +3,6 @@ Automated SOC Home Lab with Wazuh, TheHive, Shuffle and Mimikatz
 
 #  SOC Automation Home Lab
 
-**Author:** RIM522  
-**Date:** March 2026  
-**Status:** ✅ Completed
-
 ---
 
 ##  Project Overview
