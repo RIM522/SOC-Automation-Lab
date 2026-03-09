@@ -89,7 +89,7 @@ bash wazuh-install.sh -a
 
 After installing the Wazuh Agent on Windows 10, the agent appears in the Wazuh dashboard as active.
 
-![Wazuh Agent](wazuhAgent.jpeg)
+![Wazuh Agent](screenshots/wazuhAgent.jpeg)
 
 ```powershell
 Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.5-1.msi -OutFile ${env:tmp}\wazuh-agent.msi
@@ -154,7 +154,7 @@ sudo docker-compose up -d
 
 The Shuffle workflow automatically connects Wazuh alerts to VirusTotal, TheHive and Email.
 
-![Shuffle Workflow](Shuffle-workflow.jpeg)
+![Shuffle Workflow](screenshots/Shuffle-workflow.jpeg)
 
 Configure Wazuh → Shuffle integration in `/var/ossec/etc/ossec.conf`:
 ```xml
@@ -180,7 +180,7 @@ Set-MpPreference -DisableIOAVProtection $true
 
 Mimikatz is executed on the Windows 10 VM to simulate a credential dumping attack (MITRE T1003).
 
-![Mimikatz Execution](mimikatz-execution.png)
+![Mimikatz Execution](screenshots/mimikatz.jpg)
 
 ```powershell
 cd C:\Users\user\Downloads\mimikatz2\x64
@@ -200,7 +200,7 @@ exit
 
 Wazuh successfully detected Mimikatz using Sysmon EventID 1 (Process Create).
 
-![Wazuh Detection](wazuhDetection.jpeg)
+![Wazuh Detection](screenshots/wazuhDetection.jpeg)
 
 ---
 
@@ -208,7 +208,7 @@ Wazuh successfully detected Mimikatz using Sysmon EventID 1 (Process Create).
 
 The Wazuh dashboard shows multiple critical alerts for Mimikatz on agent **mydfir** with Rule ID 100002, Level 15, MITRE Technique T1003.
 
-![Wazuh Dashboard](WazuhMimikatzDetection.jpeg)
+![Wazuh Dashboard](screenshots/WazuhMimikatzDetection.jpeg)
 
 ---
 
@@ -216,7 +216,7 @@ The Wazuh dashboard shows multiple critical alerts for Mimikatz on agent **mydfi
 
 An investigation case was automatically created in TheHive with full details of the attack.
 
-![TheHive Alert](TheHive-Alert.jpeg)
+![TheHive Alert](screenshots/TheHive-Alert.jpeg)
 
 ---
 
@@ -224,7 +224,7 @@ An investigation case was automatically created in TheHive with full details of 
 
 The SOC Analyst received an automatic email notification with all attack details for immediate investigation.
 
-![Email Notification](EmailSuccess.jpeg),()
+![Email Notification](screenshots/EmailSuccess.jpeg),()
 )
 
 ---
