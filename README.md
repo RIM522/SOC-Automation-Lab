@@ -208,7 +208,7 @@ Wazuh successfully detected Mimikatz using Sysmon EventID 1 (Process Create).
 
 The Wazuh dashboard shows multiple critical alerts for Mimikatz on agent **mydfir** with Rule ID 100002, Level 15, MITRE Technique T1003.
 
-![Wazuh Dashboard](screenshots/WazuhMimikatzDetection.jpeg)
+![Wazuh Dashboard](screenshots/wazuh-detection.jpeg)
 
 ---
 
