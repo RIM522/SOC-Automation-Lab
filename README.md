@@ -180,7 +180,7 @@ Set-MpPreference -DisableIOAVProtection $true
 
 Mimikatz is executed on the Windows 10 VM to simulate a credential dumping attack (MITRE T1003).
 
-![Mimikatz Execution](screenshots/mimikatz.jpg)
+![Mimikatz Execution](screenshots/MimikatzExecution.jpeg)
 
 ```powershell
 cd C:\Users\user\Downloads\mimikatz2\x64
@@ -224,7 +224,7 @@ An investigation case was automatically created in TheHive with full details of 
 
 The SOC Analyst received an automatic email notification with all attack details for immediate investigation.
 
-![Email Notification](screenshots/EmailSuccess.jpeg),()
+![Email Notification](screenshots/EmailSuccess.jpeg),(screenshots/ShuffleEmailMessage.jpeg)
 )
 
 ---
