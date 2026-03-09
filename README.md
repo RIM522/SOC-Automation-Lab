@@ -25,7 +25,7 @@ This project is a fully automated **Security Operations Center (SOC)** built fro
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 ### Virtual Machines
 
@@ -168,7 +168,7 @@ Configure Wazuh → Shuffle integration in `/var/ossec/etc/ossec.conf`:
 
 ---
 
-## 🧪 Attack Simulation
+##  Attack Simulation
 
 ### Step 1 — Disable Windows Defender (for testing only)
 ```powershell
@@ -194,7 +194,7 @@ exit
 
 ---
 
-## ✅ Results
+##  Results
 
 ### Wazuh Detects Mimikatz
 
@@ -229,7 +229,7 @@ The SOC Analyst received an automatic email notification with all attack details
 
 ---
 
-## 📚 Key Concepts
+##  Key Concepts
 
 **SIEM** — Security Information and Event Management  
 **SOAR** — Security Orchestration, Automation and Response  
@@ -259,5 +259,6 @@ The SOC Analyst received an automatic email notification with all attack details
 
 ---
 
-*This project was built for educational purposes only in a controlled lab environment.*
+This project was built as part of a cybersecurity home lab 
+to develop real-world SOC skills.
 
